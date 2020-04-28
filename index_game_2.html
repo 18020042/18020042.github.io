@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style_game_2.css">
+</head>
+<body id="body">
+
+<div id="start-scr">
+    <img id="start-img" src="images_game_2/start-backgr.png">
+    <button id="start-btn"> Bắt đầu </button>
+    <div id="loading-bar" ></div>
+</div>
+
+
+
+<div id="play-scr">
+
+    <div id="tool-bar">
+        <a href="exercise.html"><button id="back-btn"> Quay lại</button></a>
+    </div>
+
+    <div id="point-bar">
+        <ul>
+            <li class="point-section" id="point-section-1">1</li>
+            <li class="point-section" id="point-section-2">2</li>
+            <li class="point-section" id="point-section-3">3</li>
+            <li class="point-section" id="point-section-4">4</li>
+            <li class="point-section" id="point-section-5">5</li>
+            <li class="point-section" id="point-section-6">6</li>
+            <li class="point-section" id="point-section-7">7</li>
+            <li class="point-section" id="point-section-8">8</li>
+            <li class="point-section" id="point-section-9">9</li>
+        </ul>
+    </div>
+
+    <div id="instruct"> 
+        
+        Hãy trả tiền cho những món đồ trong cửa hàng 
+    </div>
+
+    <div id="one-coin-col" ondrop="dropInOneDiv(event)" ondragover="allowDrop(event)">
+        <img src="images_game_2/one-coin.png" draggable="true" ondragstart="drag(event)" class="one-coin" id="one-coin-1" width="70" height="70">
+        <img src="images_game_2/one-coin.png" draggable="true" ondragstart="drag(event)" class="one-coin" id="one-coin-2" width="70" height="70">
+        <img src="images_game_2/one-coin.png" draggable="true" ondragstart="drag(event)" class="one-coin" id="one-coin-3" width="70" height="70">
+        <img src="images_game_2/one-coin.png" draggable="true" ondragstart="drag(event)" class="one-coin" id="one-coin-4" width="70" height="70">
+        <img src="images_game_2/one-coin.png" draggable="true" ondragstart="drag(event)" class="one-coin" id="one-coin-5" width="70" height="70">
+        <img src="images_game_2/one-coin.png" draggable="true" ondragstart="drag(event)" class="one-coin" id="one-coin-6" width="70" height="70">
+        <img src="images_game_2/one-coin.png" draggable="true" ondragstart="drag(event)" class="one-coin" id="one-coin-7" width="70" height="70">
+        <img src="images_game_2/one-coin.png" draggable="true" ondragstart="drag(event)" class="one-coin" id="one-coin-8" width="70" height="70">
+        <img src="images_game_2/one-coin.png" draggable="true" ondragstart="drag(event)" class="one-coin" id="one-coin-9" width="70" height="70">
+    </div>
+    <div id="ten-coin-col" ondrop="dropInTenDiv(event)" ondragover="allowDrop(event)">
+        <img src="images_game_2/ten-coin.png" draggable="true" ondragstart="drag(event)" class="ten-coin" id="ten-coin-1" width="90" height="90">
+        <img src="images_game_2/ten-coin.png" draggable="true" ondragstart="drag(event)" class="ten-coin" id="ten-coin-2" width="90" height="90">
+        <img src="images_game_2/ten-coin.png" draggable="true" ondragstart="drag(event)" class="ten-coin" id="ten-coin-3" width="90" height="90">
+        <img src="images_game_2/ten-coin.png" draggable="true" ondragstart="drag(event)" class="ten-coin" id="ten-coin-4" width="90" height="90">
+        <img src="images_game_2/ten-coin.png" draggable="true" ondragstart="drag(event)" class="ten-coin" id="ten-coin-5" width="90" height="90">
+        <img src="images_game_2/ten-coin.png" draggable="true" ondragstart="drag(event)" class="ten-coin" id="ten-coin-6" width="90" height="90">
+        <img src="images_game_2/ten-coin.png" draggable="true" ondragstart="drag(event)" class="ten-coin" id="ten-coin-7" width="90" height="90">
+        <img src="images_game_2/ten-coin.png" draggable="true" ondragstart="drag(event)" class="ten-coin" id="ten-coin-8" width="90" height="90">
+        <img src="images_game_2/ten-coin.png" draggable="true" ondragstart="drag(event)" class="ten-coin" id="ten-coin-9" width="90" height="90">
+    </div>
+      
+    <div id="tray" ondrop="dropInTray(event)" ondragover="allowDrop(event)"></div>
+    <button id="buy-btn"> Mua </button>
+
+    <div>
+        <h1  id="price"> Giá : </h1>
+    </div>
+
+</div>     
+
+<div id="ending-scr">
+    <img id="ending-img" src="images_game_2/start-backgr.png">
+    <a href="exercise.html"><button id="back-btn-2"> Quay lại</button></a>
+    <h1 id="ending-message"> </h1>
+</div>
+
+<script type="text/javascript" src="script_game_2.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_game_3.css" type="text/css">
+</head>
+<body id="body">
+    
+<div id="start-scr">
+    <img id="start-img" src="images_game_3/startingScr.jpg" width="1350" height="600">
+    <button id="start-btn"> Bắt đầu </button>
+</div>
+
+<div id="play-scr">
+    <div id="toolbar">
+        <a href="exercise.html"><button id="back-btn-1">Quay lại</button></a>
+        <img id="score-bar" src="images_game_3/bar_fix.png" width="500" height="50">
+        <img id="score-ball-1" class="score-ball" src="images_game_3/score-ball.png" width="50" height="50">
+        <img id="score-ball-2" class="score-ball" src="images_game_3/score-ball.png" width="50" height="50">
+        <img id="score-ball-3" class="score-ball" src="images_game_3/score-ball.png" width="50" height="50">
+        <img id="score-ball-4" class="score-ball" src="images_game_3/score-ball.png" width="50" height="50">
+        <button id="language">Tiếng Việt</button>
+    </div>
+
+    <div id="instruct"> 
+        <button id="music-btn" ><img src="images_game_3/micro.png" width="50" height="50"> </button>
+        <h1 id="h1">Hãy viết 1 số tròn chục và 1 số có 1 chữ số</h1>
+    </div>
+
+    <div id="main">
+        <ul>
+            <li><h2 class="math" id="number"> x </h2></li>
+            <li><h2 class="math"> = </h2></li>
+            <li><input  class="blank" id="blank-1" type="text" name="blank-1" size="35" maxlength="2"></li>
+            <li><h2 class="math"> + </h2></li>
+            <li><input class="blank" id="blank-2" type="text" name="blank-2" size="35" maxlength="1"></li>
+            <br>
+            <br>
+           
+            <li><img src="images_game_3/character.png" width="120" height="150"></li>
+        </ul>
+        
+    </div>
+ 
+    <div>
+        <img id="chat-border" src="images_game_3/chatBorder2.png" width="150" height="80">
+        <h2 id="inform"> Hãy điền số <br>vào chỗ trống </h2>
+    </div>
+
+    <div> 
+        <button id="check-btn"> Kiểm tra </button>
+    </div>
+    
+</div>
+
+<div id="ending-scr"> 
+    <a href="exercise.html"><button id="back-btn-2"> Quay lại</button></a>
+    <h2 id="ending-text"></h2>
+</div>
+
+    <script type="text/javascript" src="script_game_3.js"></script>
+</body>
+</html>

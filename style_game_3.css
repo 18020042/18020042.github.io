@@ -1,0 +1,122 @@
+
+
+#toolbar{
+    height: 100px;
+}
+#score-bar{
+    margin-left: 150px;
+
+}
+#score-ball-1{
+    margin-left: -500px;
+    
+}
+.score-ball{
+    position:relative;
+    transition: all .5s;
+}
+#language{
+    float: right;
+    font-size: 30px;
+}
+#instruct{
+    height: 80px;
+    font-size: 25px;
+    margin-right: -180px;
+
+}
+#back-btn-1{
+
+    color: black;
+    font-size: 30px;
+    border-radius: 50%;
+    margin-right: 150px;
+    
+}
+
+
+#back-btn-1:hover {
+    color: crimson;
+}
+
+#language {
+    color: #246EA1;
+    border-radius: 10%;
+}
+.blank{
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
+    font-size: 45px;
+}
+#music-btn{
+    float: left;
+    margin-left: 180px;
+    border-radius: 50%;
+}
+#blank-2{
+    width: 30px;
+}
+#main{
+    margin-left: 350px;
+   
+}
+li{
+    list-style-type: none;
+    float: left;
+    margin: 10px;
+}
+.math{
+    font-size: 45px;
+}
+#check-btn{
+   margin-top: 100px;
+    margin-left: -250px;
+    border-radius: 100%;
+    font-size: 35px;
+    color: teal;
+    padding: 5px 5px 5px 5x;
+}
+#check-btn:hover {
+    color: blue;
+}
+#start-btn{
+    font-size: 50px;
+    
+    border-radius: 5px;
+    margin-left: 550px;
+}
+#start-img{
+    margin-bottom: -330px;
+}
+#play-scr{
+    display: none;
+    background-image: url(images_game_3/backgr.png) ;
+    height: 750px;
+}
+#inform{
+   margin-top :-80px;
+   font-size: 25px;
+   margin-right: -20px;
+}
+#ending-scr{
+    display: none;
+    width: 1350px;
+    height: 700px;
+    background-image: url(images_game_3/ending_backgr.png);
+    
+}
+#ending-text{
+    margin-top: 200px;
+    font-size: 60px;
+    margin-left: 300px;
+    color: blue;
+}
+#back-btn-2{
+    border-radius: 50%;
+    font-size: 30px;
+    border-color: rebeccapurple
+}
+#back-btn-2:hover{
+    color: red;
+}

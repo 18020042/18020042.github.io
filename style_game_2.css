@@ -1,0 +1,156 @@
+#body{
+    font-family: sans-serif;
+}
+#play-scr{
+    width: 1340px;
+    height: 635px;
+    text-align: center;
+    background: url("images_game_2/backgr.png") ;
+    background-size: 1340px 720px;
+    display: none ;
+}
+#loading-bar{
+    background-color: black;
+    width:50px;
+    height:50px;
+    position:relative;
+    animation-name: move;
+    animation-duration:3.3s;
+    display: none;
+}
+@keyframes move{
+    0%   {top: 0px; background: black; width: 76px; left: 493px;}
+    25%   {top: 0px; background: black; width: 160px; left: 493px;}
+    75%   {top: 0px; background: black; width: 245px; left: 493px;}
+    100% {top: 0px; background: black; width: 335px; left: 493px;}
+}
+#start-img{
+    margin-bottom: -250px;
+}
+#start-btn{
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 35px;
+    margin-left: 580px;
+    margin-bottom: 30px;
+}
+#start-btn:hover{
+    color: mediumblue;
+    background-color: palegreen;
+}
+li{
+    list-style-type: none;
+}
+#tool-bar{
+    height: 60px;
+}
+#back-btn{
+    margin-top: 2px;
+    margin-left: -1210px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+#language{
+    float: right;
+    font-size: 25px;
+}
+#point-bar li{
+    float: left;
+}
+#point-bar{
+    margin-top: -30px;
+    margin-left: -30px;
+    margin-bottom: 10px;
+}
+.point-section{
+    width: 145px;
+    height: 20px;
+    background-color: turquoise;
+    opacity: 0.8;
+}
+
+#instruct{
+    height: 50px;
+    font-size: 35px;
+    margin-right: -10px;
+    margin-bottom: 10px;
+    color: blue;
+}
+#one-coin-col {
+    margin-top: 50px;
+    float: left;
+    width: 70px;
+    height: 430px;
+    margin-left: 80px;
+    margin-right: 50px;
+}
+.one-coin{
+    margin-bottom: -30px;
+}
+.one-coin:hover{
+    cursor: pointer;
+}
+.ten-coin:hover{
+    cursor: pointer;
+}
+#ten-coin-col {
+    margin-top: 50px;
+    float: left;
+    width: 100px;
+    height: 450px;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+.ten-coin{
+    margin-bottom: -50px;
+}
+#tray {
+    border: 1px solid black;
+    margin-top: 160px; 
+    width: 400px;
+    height: 255px;
+    margin-left: 450px;
+    border: 4px solid black;
+    position: absolute;
+    text-align: center;
+    font-size: 55px;
+}
+#buy-btn{
+    padding: 5px 15px 5px 15px;
+    margin-top: 440px;
+    margin-left: -420px;
+    font-size: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: turquoise;
+}
+#buy-btn:hover{
+    color: red;
+}
+#price{
+    margin-right: -250px;
+    margin-top: -180px;
+    font-size: 45px;
+}
+#ending-scr{
+    display: none;
+}
+#ending-message{
+    font-size: 45px;
+    margin-left: 80px;
+    margin-top: 250px;
+}
+#back-btn-2{
+    font-size: 30px;
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-bottom: 5px;
+}
+#ending-img{
+    margin-bottom: -640px;
+}
