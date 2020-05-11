@@ -1,5 +1,8 @@
 
-
+#body{
+    margin: auto;
+    font-family: sans-serif;
+}
 #toolbar{
     height: 100px;
 }

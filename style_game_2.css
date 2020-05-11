@@ -48,14 +48,16 @@ li{
     height: 60px;
 }
 #back-btn{
+    margin-left: 5px;
     margin-top: 2px;
-    margin-left: -1210px;
+    float: left;
     font-size: 30px;
     border-radius: 50%;
 }
-#language{
-    float: right;
+#language-btn{
+    margin-left: 1080px;
     font-size: 25px;
+    color: midnightblue;
 }
 #point-bar li{
     float: left;
